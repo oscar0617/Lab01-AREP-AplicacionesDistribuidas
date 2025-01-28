@@ -59,7 +59,7 @@ public class HttpServer {
                 outputLine = helloRestService(resourceuri.getPath(), resourceuri.getQuery());
                 out.println(outputLine);
             } else {
-                String filePath = "webserver\\src\\main\\java\\edu\\escuelaing\\arep\\www" + resourceuri.getPath();
+                String filePath = "src\\main\\java\\edu\\escuelaing\\arep\\www" + resourceuri.getPath();
                 if (filePath.endsWith("/")) {
                     filePath += "index.html";
                 }
